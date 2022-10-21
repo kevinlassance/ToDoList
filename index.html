@@ -6,16 +6,21 @@
 		<title>To do list</title>
 	</head>
 	<body>
-		<a href="https://github.com/kevinlassance">
-			<img src="./Ressources/images/download.png" />
+		<a href="https://github.com/kevinlassance" target="_blank">
+			<img
+				src="./Ressources/images/download.png"
+				alt="lien Github"
+				id="image" />
 		</a>
 		<div class="wrapper">
 			<h2>To do list</h2>
 			<p></p>
 			<ul class="plates"></ul>
 			<form class="add-items">
-				<input type="text" name="item" placeholder="Item Name" required />
-				<input type="submit" value="+ Add Item" />
+				<div>
+					<input type="text" name="item" placeholder="Item Name" required />
+					<input type="submit" value="+ Add Item" />
+				</div>
 			</form>
 		</div>
 		<script src="./script.js"></script>
